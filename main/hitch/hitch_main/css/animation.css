@@ -1,0 +1,250 @@
+@media screen and (min-width:1910px) and (max-width:1920px){
+    #container > span{
+        width: 600px;
+        height: 600px;
+        top: 7%;
+        right: 30%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+@media screen and (min-width:1900px) and (max-width:1909px){
+    #container > span{
+        width: 600px;
+        height: 600px;
+        top: 6%;
+        right: 30%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1890px) and (max-width:1899px){
+    #container > span{
+        width: 600px;
+        height: 600px;
+        top: 6%;
+        right: 30%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+@media screen and (min-width:1850px) and (max-width:1889px){
+    #container > span{
+        width: 590px;
+        height: 590px;
+        top: 6%;
+        right: 30%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1830px) and (max-width:1849px){
+    #container > span{
+        width: 580px;
+        height: 580px;
+        top: 6%;
+        right: 30%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1780px) and (max-width:1829px){
+    #container > span{
+        width: 570px;
+        height: 570px;
+        top: 5%;
+        right: 30%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1730px) and (max-width:1779px){
+    #container > span{
+        width: 560px;
+        height: 560px;
+        top: 4%;
+        right: 30%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1700px) and (max-width:1729px){
+    #container > span{
+        width: 550px;
+        height: 550px;
+        top: 3%;
+        right: 30%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1650px) and (max-width:1699px){
+    #container > span{
+        width: 540px;
+        height: 540px;
+        top: 2%;
+        right: 29%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+@media screen and (min-width:1023px) and (max-width:1649px){
+    body{
+        background-position: center;
+    }
+}
+@media screen and (min-width:1540px) and (max-width:1649px){
+
+    #container > span{
+        width: 530px;
+        height: 530px;
+        top: 1%;
+        right: 29%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1480px) and (max-width:1539px){
+
+    #container > span{
+        width: 520px;
+        height: 520px;
+        top: 1.5%;
+        right: 28.5%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1410px) and (max-width:1479px){
+
+    #container > span{
+        width: 510px;
+        height: 510px;
+        top: 2%;
+        right: 28%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:1350px) and (max-width:1409px){
+
+    #container > span{
+        width: 520px;
+        height: 520px;
+        top: 1.5%;
+        right: 26%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 27%;
+    }
+}
+
+@media screen and (min-width:1250px) and (max-width:1449px){
+
+    #container > span{
+        width: 520px;
+        height: 520px;
+        top: 2%;
+        right: 25%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 27%;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1249px){
+
+    #container > span{
+        width: 520px;
+        height: 520px;
+        top: 2%;
+        right: 23.5%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 27%;
+    }
+}
+
+@media screen and (min-width:1150px) and (max-width:1199px){
+
+    #container > span{
+        width: 520px;
+        height: 520px;
+        top: 2%;
+        right: 22.5%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 27%;
+    }
+}
+
+@media screen and (min-width:1100px) and (max-width:1149px){
+
+    #container > span{
+        width: 520px;
+        height: 520px;
+        top: 2%;
+        right: 21.5%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 27%;
+    }
+}
+
+@media screen and (min-width:1023px) and (max-width:1099px){
+
+    #container > span{
+        width: 520px;
+        height: 520px;
+        top: 2%;
+        right: 20%;
+    }
+    
+    #container > span > span:nth-child(2){
+        left: 27%;
+    }
+}
+
+
+
+
+
+

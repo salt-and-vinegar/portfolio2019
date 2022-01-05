@@ -1,0 +1,144 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+#banner {
+    background: url(../images/banner-images/banner-image-3.png) no-repeat center top !important;
+    background-size: cover;
+    height: 100vh;
+}
+
+#banner h1 {
+    padding-top: 0;
+}
+
+
+
+.section-heading span {
+    display: block;
+    padding-top: 5%;
+    padding-left: 2%;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+
+.social-icons li {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px !important;
+    overflow: hidden;
+}
+
+.social-icons li:last-child {
+    width: 32px;
+}
+
+.social-icons li a {
+    width: 20px;
+}
+
+.social-icons li img {
+    width: 20px;
+}
+
+
+.button {
+    padding: 11px 60px;
+}
+
+#banner .button:hover {
+    color: #000 !important;
+    border-color: #e64f1d !important;
+    background-color: #e64f1d !important;
+}
+
+#banner .button {
+
+    color: #000 !important;
+    background-color: #ec693d !important;
+    border-color: #ec693d !important;
+    border-radius: 20px;
+
+}
+
+.section-heading h3 {
+    color: #ec693d;
+    letter-spacing: 1px;
+}
+
+section#about {
+    background: linear-gradient(to bottom, rgb(255, 241, 198) 0%, rgb(237, 193, 151) 75%, rgb(243, 161, 67) 100%);
+
+}
+
+.section-subtitle {
+    font-size: 14px !important;
+    color: #222 !important;
+}
+
+.icon-top .icon-block-description button {
+
+    color: #000 !important;
+    background-color: #ec693d !important;
+    border: 0;
+    padding: 11px 20px;
+    box-shadow: 0;
+    border-radius: 20px;
+    transition: .5s all ease-out;
+}
+
+.icon-top .icon-block-description button:hover {
+    background-color: #e64f1d !important;
+}
+
+.icon-top .icon-block-description button:hover a {
+    color: #000 !important;
+
+}
+
+.testimonial.bigtest p {
+    font-size: 15px;
+}
+
+.col-3 p {
+    font-size: 14px;
+}
+
+.button:hover,
+input[type="submit"]:hover {
+    border-color: #ec693d !important;
+    color: #ec693d !important;
+}
+
+#testimonials {
+    background:url(../images/bgimg2.jpg) center center fixed no-repeat !important;
+    text-align: center;
+    position: relative
+}
+.price span{
+    font-size: 16px;
+}
+
+.pricing-block{
+    transition: .6s all;
+}
+#clients{
+    text-align: center;
+   
+}
+
+#badgeWrap{
+    text-align: center;
+    height: 500px;
+    
+}
+
+#back,#front{
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+
+

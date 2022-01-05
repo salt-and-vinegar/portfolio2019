@@ -1,0 +1,178 @@
+p {
+    color: #fff;
+}
+
+div#join_page {
+    background-image: url(../img//LogInBG.jpg);
+    background-size: cover;
+    position: relative;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+div#join_back {
+
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+}
+
+div#join_back a {
+
+    color: rgba(200, 200, 200, 1);
+    letter-spacing: 5px;
+    display: block;
+    font-size: 12px
+}
+
+div#join_back a span {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    color: white
+}
+
+div.join_form {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    padding: 50px;
+    padding-top: 100px;
+    background-color: rgba(100, 100, 100, .1);
+    text-align: left;
+
+}
+
+.join_form > p:first-child {
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+    line-height: 35px;
+}
+
+.join_form > p:nth-child(2) {
+    color: white;
+    font-size: 11px;
+    line-height: 35px;
+}
+
+.join_form_table {
+    padding: 50px 0;
+}
+
+.join_form .join_form_table select,
+.join_form_table .join_input {
+    border: 1px solid #dfdfdf;
+    height: 34px;
+    line-height: 34px;
+}
+
+.join_form .join_form_table select{
+    padding:0 0 0 10px; ;
+}
+
+.join_form_table .btn_zip {
+    width: 174px;
+    height: 36px;
+    line-height: 36px;
+    color: #000;
+    background-color: rgba(255,255,255,.8);
+    border: 0;
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.join_form_table td *{
+    vertical-align: middle;
+}
+
+#agree1,
+#agree2,
+#agreeAll{
+    vertical-align: middle;
+    margin-right: 5px;
+    border: 0;
+    box-shadow: 0;
+    color: #000;
+    background-color: white;
+}
+tr{
+    color: white;
+    font-size: 12px;
+}
+th {
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+td {
+    padding: 5px 0;
+}
+
+tr span{
+    color: white;
+    font-size: 11px;
+}
+
+select {
+    line-height: 10px;
+}
+
+
+
+.agree_box {
+    border: 1px solid #dfdfdf;
+    margin: 30px 0 10px;
+    height: 200px;
+    padding: 20px;
+    font-size: 11px;
+    line-height: 22px;
+    color: #131313;
+    overflow-y: scroll;
+}
+
+#agreeAll{
+    
+}
+
+.fps_tb tbody tr th,
+.fps_tb tbody tr td{
+    color: white;
+}
+
+.agree_wrap label{
+    color: white;
+    font-size: 12px;
+}
+
+.btn_wrap{
+    padding-top: 50px;
+}
+
+.btn_wrap button{
+    padding: 20px 30px;
+    box-shadow: 0;
+    transition: .5s all;
+}
+
+.btn_wrap button:first-child{
+    background-color: #9e0b0f;
+    border: 0;
+    color: #fff;
+}
+.btn_wrap button:last-child{
+    color: #9e0b0f;
+    border: 1px solid #9e0b0f;
+    background-color: transparent;
+}
+
+.btn_wrap button:first-child:hover{
+    background-color: #70080a
+}
+
+.btn_wrap button:last-child:hover{
+    color: #70080a;
+    border: 1px solid #70080a;
+}

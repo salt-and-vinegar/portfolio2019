@@ -1,0 +1,13 @@
+
+
+/*div#quick 시작*/
+
+div#quick{position: absolute; top: 200px;right: 0;width: 80px; background-color:rgba(111,133,191,1); z-index: 888}
+div#quick ul li{padding: 20px 10px; text-align: center}
+div#quick ul li a{display: block;color: white; line-height: 50px; font-size: 12px}
+
+
+/*div#top 시작*/
+
+div#top{position: fixed; width: 60px;height: 60px; background-color: #f3cfff; color: white; right: 10px;bottom: 10px; z-index: 999; border-radius: 50%; text-align: center; font-size: 14px}
+div#top span{display: block; padding-top: 8px}

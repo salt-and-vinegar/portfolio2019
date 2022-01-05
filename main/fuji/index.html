@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUJI FILM</title>
+    <link rel="shortcut icon" href="img/fujilogo.ico">
+    <link rel="apple-touch-icon" href="img/fujilogo.png">
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style_479.css">
+    <link rel="stylesheet" href="css/style_480_1023.css" type="text/css">
+    <link rel="stylesheet" href="css/style_1024_1200.css" type="text/css">
+    <link rel="stylesheet" href="css/style_1201_1400.css" type="text/css">
+    <link rel="stylesheet" href="css/style_1401_1600.css" type="text/css">
+    <link rel="stylesheet" href="css/style_1601_1700.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+
+
+     <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/pageTransition.js"></script>
+    <script src="js/pomslider.js"></script>
+    <script src="js/close_pop.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/historySlide.js"></script>
+    <script src="js/mobMenu.js"></script>
+    <script>
+    
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+        
+            $(function(){
+                
+            var num = 0;
+            var winW = $(window).width();
+            var secW = $("#mobile_sec_wrap").width();
+            $("div.mobile ul li").width(secW);
+            
+                
+                function resize(){
+                    
+                    if(480<winW<1023){
+                       
+                        
+                    winW = $(window).width();
+                       $("div.mobile ul li").css("width",winW);
+                        
+                       }
+                    
+
+                    
+                }
+                
+                $(document).ready(function(){
+                    
+                     resize();
+                    $(window).resize(resize);
+                    
+                });
+                
+            function gal(c){
+                
+               
+                
+                $("#ani").stop(true,true).animate({"marginLeft":c*-winW},500) 
+                   
+                    
+                }
+               $("#secLeft, #secRight").click(function(){
+                if($(this).attr("id")=="secRight"){
+                    if(num<$("#mobile_sec_wrap li").length-1) num++;
+                }else{
+                    if(num>0) num--;
+                }
+                gal(num);
+            })
+                
+                
+            })
+        
+        
+
+
+        
+    </script>
+    
+</head>
+<body>
+   
+    <!--div#logIn 시작-->
+   <div id="logIn">
+       <div>
+           <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="logIn.html" class="transition">LOG IN</a></li>
+               <li><a href="#none">CONTACT ME</a></li>
+               <li><a href="#none">KOREAN</a></li>
+           </ul>
+       </div>
+   </div>
+   <!--div#gnb 끝-->
+   
+    <!--header 시작-->
+    <header>
+       <div class="wrap70">
+        <h1>
+            <a href="index.html">
+                <img src="img/logo.png" alt="로고">
+            </a>
+        </h1>
+        <nav>
+            <ul>
+               <span id="mobAni1"></span>
+               <span id="mobAni2"></span>
+               <span id="mobAni3"></span>
+               <span id="mobAni4"></span>
+                <li><a href="#none">FUJI FILM</a></li>
+                <li><a href="#none">INNOVATION</a></li>
+                <li><a href="#none">PRODUCTS</a></li>
+                <li><a href="#none">SUPPORT</a></li>
+                <li><a href="#none">NEWS</a></li>
+                <li><a href="#none">SHOP</a></li>
+            </ul>
+        </nav>
+        <div id="gnb">
+            <ul>
+                <li><img src="img/gnb1.png" alt=""></li>
+                <li><img src="img/gnb2.png" alt=""></li>
+                <li><img src="img/gnb3.png" alt=""></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <!--header 끝-->
+    <!--div.wrap 시작-->
+    <div class="wrap">
+		<div id="popup">
+			<p class="popbtn">
+			<input id="check" type="checkbox">
+			<label for="check"><span></span>오늘은 이 창을 열지 않음</label>
+			<button class="popclose" type="button">X</button>
+			</p>
+		</div>
+    </div>
+    <!--div.wrap 끝-->
+    <!--section 시작-->
+    <section>
+    <div class="mobile">
+      <div class="secBtn">
+       <button id="secLeft">&lt;</button>
+       <button id="secRight">&gt;</button>
+        </div>
+        <div id="mobile_sec_wrap">
+        <ul id="ani">
+            <li>
+               <img src="img/mobileSec.jpg" alt="X-T3배너이미지"> 
+               <span class="secTitle">CAMERA</span>
+               <span class="secLine"></span>
+               <span class="secSort">X-SERIES</span>
+               <span class="secName">X-T3</span>
+            </li>
+            
+            <li>
+                <img src="img/mobileSec2.png" alt="GFX배너이미지">
+                <span class="secTitle">SERIES</span>
+               <span class="secLine"></span>
+               <span class="secSort">MEGA PIXEL</span>
+               <span class="secName">GFX100</span>
+            </li>
+            <!--<li><img src="" alt=""></li>-->
+        </ul>
+        </div>
+    </div>
+    <div class="flexslider">
+        <ul class="slides">
+            <li class="secSlide">
+                <span class="big"><b>GF45mm</b></span>
+                <span class="big"><b>F2.8 R WR</b></span>
+                <span class="topLeft small">LENS</span>
+                <span class="topRight small">01</span>
+                <span class="botLeft small">A FOCAL LENGTH <br>
+                EQUIVALENT TO 36mm</span>
+                <span class="botRight small">TEMPERATURES <br>
+                AS LOW AS -10&#176;C</span>
+                
+                <a href="#none" class="secVM">
+                <img src="img/view_more.png" class="viewMore" alt="">
+                </a>
+                <img src="img/banner1_1.png" class="ban" alt="">
+            </li>
+           <li class="secSlide">
+                <span class="big"><b>FUJI FILM</b></span>
+                <span class="big"><b>GFX 50S</b></span>
+                <span class="topLeft small">CAMERA</span>
+                <span class="topRight small">02</span>
+                <span class="botLeft small">43.8X32.9mm 51.4MP<br>
+                SMOS MEDIUM FORMAT SENSOR</span>
+                <span class="botRight small">DETACHABLE<br> 3.69M&#45;dot EVF</span>
+                
+                <a href="#none" class="secVM">
+                <img src="img/view_more.png" class="viewMore" alt="">
+                </a>
+                <img src="img/banner1_2.png" style="width: 100%" alt="">
+            </li>
+            <!--li로 히스토리 더 들어갈 자리-->
+        </ul>
+    </div>
+     <!--<div class="custom-navigation">
+         <a href="#" class="flex-prev">Prev</a>
+          <div class="custom-controls-container"></div>
+          <a href="#" class="flex-next">Next</a>
+        </div>-->
+    </section>
+    <!--section 끝-->
+    
+    <!--div#history 시작-->
+    
+    <div id="history">
+       <span></span>
+        <h2> <span>FUJI FILM</span> <span>INNOVATION</span> <span>GATEWAY</span></h2>
+        <p>This is what We've been through</p>
+        <div class="hisMob">
+            
+            <div class="item1934">
+                
+                <div class="hisMitemT">
+                    <span class="hisMbig">19</span>
+                </div>
+                <div class="hisMitemB">
+                   <div class="hisMwrap">
+                    <h4>The History of FujiFilm began</h4>
+                    <p>Fujifilm looked for a company overseas with whom to collaborate on this new venture, but the negotiations fell through. The new company </p>
+                    </div>
+                    <span class="hisMbig">34</span>
+                </div>
+                
+            </div>
+            <div class="item1936">
+                
+                <div class="hisMitemT">
+                    <span class="hisMbig">19</span>
+                </div>
+                <div class="hisMitemB">
+                  <span class="hisMbig">36</span>
+                   <div class="hisMwrap">
+                    <h4>Fuji Chrome Film roll film box</h4>
+                    <p> In 1936, Fujifilm launched Fuji Chrome Film, a roll film for still photography. </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="item1948">
+                
+                <div class="hisMitemT">
+                    <span class="hisMbig">19</span>
+                </div>
+                <div class="hisMitemB">
+                    
+                    <div class="hisMwrap">
+                    <h4>The Dawn of the Colour film era</h4>
+                    <p>In 1948, having overcome a severe lack of required materials as well as a factory fire, Fujifilm introduced Fuji Color Film, which came in a pack of six sheets measuring 6cm square. </p>
+                    </div>
+                    <span class="hisMbig">48</span>
+                </div>
+                
+            </div>
+            
+            
+            <div class="itemMvm">
+                
+                <span></span>
+                <a href="#none">VIEW MORE</a>
+                <img src="img/Mvm.png" alt="triangle">
+                
+                
+            </div>
+            
+        </div>
+        <div id="historySld">
+            <div class="container">
+                <div class="hisItem">
+                     <img src="img/history.gif" alt="">
+                     <span class="history">Rain, mud, snow? The HD-1 FUJICA was good to go!
+                     </span>
+                </div> 
+                <div class="hisItem">
+                     <img src="img/history2.gif" alt="">
+                     <span class="history">The world’s first 400 ASA high-sensitivity color film: FUJICOLOR F-II400!
+                     </span>
+                </div>
+            </div>
+        </div>
+        <div id="hisLeft"><img src="img/Lb.png" alt=""></div>
+        <div id="hisRight"><img src="img/Rb.png" alt=""></div>
+       
+    </div>
+    
+    <!--div#history 끝-->
+    
+    <!--div#proCam 시작-->
+    
+    <div id="proCam">
+        <h2>FUJI FILM PRODUCTS</h2>
+        <span><b>CAMERA</b></span>
+        <div class="proWrap">
+           
+            <figure><!--1-->
+               <span></span>
+                <img src="img/proCam_x-t3.jpg" alt="">
+                <figcaption>
+                    <h3>X-T3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore cum odit doloremque reprehenderit quaerat inventore </p>
+                    <img src="img/pointer.png" alt="">
+                </figcaption>
+            </figure>
+
+            <div id="camCenter"><!--2-->
+                <figure>
+                   <span></span>
+                    <figcaption>
+                    <h3>GFX50r</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore cum odit doloremque reprehenderit quaerat inventore </p>
+                    <img src="img/pointer.png" alt="">
+                    </figcaption>
+                    <img src="img/proCam_gfx50r.jpg" alt="">
+                </figure><div id="camView" class="proVM">
+                     <a href="#none">
+                     <img src="img/view_more.png" alt=""></a>
+                     </div>
+                 
+                <figure>
+                    <figcaption>
+                    <h3>X-T100</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore cum odit doloremque reprehenderit quaerat inventore </p>
+                    <img src="img/pointer.png" alt="">
+                    </figcaption>
+                    <img src="img/proCam_x-t100.jpg" alt="">
+                    <span></span>
+                </figure>
+               
+            </div>
+            
+            <figure><!--3-->
+               <span></span>
+                <img src="img/proCam_x100f.jpg" alt="">
+               <figcaption>
+                   
+                    <h3>X100f</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore cum odit doloremque reprehenderit quaerat inventore </p>
+                    <img src="img/pointer.png" alt="">
+                </figcaption>
+            </figure>
+            
+        </div>
+    </div>
+    
+    <!--div#proCam 끝-->
+    
+    <!--div#proLens 시작-->
+    
+    <div id="proLens">
+        <span><b>LENS</b></span>
+        <div class="proWrap">
+            
+            <div id="lensTop">
+               
+                <figure>
+                   <span></span>
+                    <img src="img/proLens_xc50230mmf4567ois.jpg" alt="">
+                    <figcaption>
+                        <h3>XC50-230mm</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore cum odit doloremque reprehenderit quaerat inventore. Lorem ipsum dolor sit amet, consectetur</p>                 <img src="img/pointer.png" alt="">       
+                    </figcaption>
+                </figure>
+                <figure>
+                   <span></span>
+                    <img src="img/proLens_GF23mmF4RLLMWR.jpg" alt="">
+                    <figcaption>
+                        <h3>GF23mmF4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore cum odit doloremque reprehenderit quaerat inventore</p>                 <img src="img/pointer.png" alt="">       
+                    </figcaption>
+                </figure>
+                
+            </div>
+            <div id="lensBot">
+                
+                <figure>
+                   <span></span>
+                    <img src="img/proLens_gf3264mmf4rlmwr.jpg" alt="">
+                    <figcaption>
+                        <h3>GF3264mmf4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore cum odit doloremque reprehenderit quaerat inventore</p>
+                        <img src="img/pointer.png" alt="">
+                    </figcaption>
+                </figure>
+                <figure>
+                   <span></span>
+                    <img src="img/proLens_xf18mmf2r.jpg" alt="">
+                    <figcaption>
+                        <h3>XF18mmf2r</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore cum odit doloremque reprehenderit quaerat inventore</p>
+                        <img src="img/pointer.png" alt="">               
+                    </figcaption>
+                </figure>
+                
+                <div class="proVM">
+                   <a href="#none">
+                    <img src="img/view_more.png" alt=""></a>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <!--div#proLens 끝-->
+    
+    <!--div#divide 시작-->
+    
+    <div id="divide">
+        
+        <div id="magazine">
+           <img src="img/x-magazine.png" alt="">
+            <a href="#none"></a>
+            
+        </div>
+        <div id="academy">
+           <img src="img/x-academy.png" alt="">
+            <a href="#none"> </a>
+            
+            
+        </div>
+    </div>
+    
+    <!--div#divide 끝-->
+    
+    <!--div#pom 시작-->
+    
+    <div id="pom">
+        
+        <ul class="aniBox">
+            <li>
+               <img src="img/5_pom_1.jpg" alt="">
+                <span class="pomTxt">PHOTO OF THE MONTH</span>
+                <span class="pomPhoto">LAITH AL MAJALI | MOMENTS IN MONOCHROME</span>
+            </li><li>
+               <img src="img/5_pom_2.jpg" alt="">
+               <span class="pomTxt">PHOTO OF THE MONTH</span>
+                <span class="pomPhoto">BRYAN MINEAR | YOSEMITE NATIONAL PARK</span>
+            </li><li>
+               <img src="img/5_pom_3.jpg" alt="">
+               <span class="pomTxt">PHOTO OF THE MONTH</span>
+                <span class="pomPhoto">RADCLIFFE ROYE | LOOKING AT MONTEGO BAY</span>
+            </li><li>
+               <img src="img/5_pom_4.jpg" alt="">
+             <span class="pomTxt">PHOTO OF THE MONTH</span>
+                <span class="pomPhoto">ALAN Y.L. KWOK | EVERYTHING WILL FLOW</span></li>
+        </ul>
+       <div id="pomVM">
+            <a href="#none">
+                <img src="img/view_more.png" alt="">
+            </a>
+        </div>
+    </div>
+    
+    <!--div#pom 끝-->
+    
+    <!--div#sustain 시작-->
+    <div id="sustain">
+       
+        <span class="susLeft"></span>
+        <span class="susRight"></span>
+        
+        <div id="susWrap">
+           
+            <div id="susTop">
+                <div id="topTxt">
+                    <h2>01</h2>
+                    <span class="susRed"></span>
+                    <span class="susBig">PHOTO<br>
+                    RESCUE PROJECT</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <img src="img/rescue.jpg" alt="">
+            </div>
+            
+            <div id="susBot">
+               <img src="img/sustain.jpg" alt="">
+                <div id="botTxt">
+                    <h2>02</h2>
+                    <span class="susRed"></span>
+                    <span class="susBig">ACTIVITY LISTS</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                    Nulla maxime ipsum vel rerum nisi quos iusto reiciendis</p>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <!--div#sustain 끝-->
+    
+    <!--div#shop 시작-->
+    
+    <div id="shop">
+        <div class="shopWrap">
+        <div class="shopCont">
+            <span>&#43;</span>
+            <h2>SHOP NOW</h2>
+            <div class="shopBtn">
+            <a href="#none">ONLINE NOW AVAILABLE</a>
+            </div>
+            <div class="shopBtn">
+            <a href="#none">WHERE TO GO OFFLINE</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!--div#shop 끝-->
+    
+    <footer>
+        
+
+        <div id="footWrap">
+            <h3><img src="img/logo.png" alt=""></h3>
+            <ul id="footList">
+                <li><a href="#none">이용약관</a></li>
+                <li><a href="#none">개인정보처리방침</a></li>
+                <li><a href="#none">이메일무단수집거부</a></li>
+                <li><a href="#none">윤리위반신고</a></li>
+                <li><a href="#none">영상정보처리기기운영방침</a></li>
+            </ul>
+            <ul id="footGnb">
+                
+                    <li><a href="#none"><img src="img/f_f.png" alt=""></a></li>
+                    <li><a href="#none"><img src="img/f_in.png" alt=""></a></li>
+                    <li><a href="#none"><img src="img/f_b.png" alt=""></a></li>
+                    <li><a href="#none"><img src="img/f_k.png" alt=""></a></li>
+                
+            </ul>
+            <p>사업자등록번호 : 248-86-00926 &#124; 대표 : 박효성 서울특별시 가산디지털1로 222 에비니엘가산 2층 <br>
+            &#124; TEL 02-3281-7700 &#124; FAX 02-3281-4070 <br>
+            copyright&copy;2018. KOREA FUJIFILM. All Rights Reserved</p>
+        </div>
+
+        
+    </footer>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

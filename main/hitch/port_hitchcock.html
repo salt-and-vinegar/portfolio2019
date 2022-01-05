@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PORTFOLIO NAYOUNG KIM</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #port_0,
+        #port_1 img,
+        #port_2 img,
+        #port_2_move img,
+        #port_3 img{
+            width: 100%;
+        }
+        
+        #link a{
+            margin: auto;
+            height: 60vh;
+            display: block;
+            text-align: center;
+            margin-bottom: 30vh;
+        }
+        
+        #link a img{
+            width: 100%;
+        }
+        
+        
+        #link a .click{
+            animation: click 2s infinite
+        }
+        
+        @keyframes click{
+            from{transform: scale(2)}
+            to{transform: scale(1)}
+        }
+ 
+    
+    </style>
+    
+</head>
+<body>
+    
+    <div id="wrap">
+        <div id="port_0">
+           <video width="1280" height ="720" controls>
+          <source src="img/hitchmockup.mp4" type="video/mp4">
+            </video> 
+            
+        </div>
+        <div id="port_1">
+            
+            <img src="img/port_hitchcock0.png" alt="히치콕">
+            
+        </div>        
+        <div id="port_2">
+            
+            <img src="img/port_hitchcock1.png" alt="히치콕">
+            
+        </div>
+        <div id="port_2_move">
+            <img src="img/port_hitchcock_move.gif" alt="히치콕 움직이는 이미지">
+        </div>
+        <div id="port_3">
+            
+            <img src="img/port_hitchcock2.png" alt="히치콕">
+            
+        </div>
+        
+        
+    </div>
+    
+</body>
+</html>

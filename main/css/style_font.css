@@ -1,0 +1,53 @@
+
+@media screen and (min-width : 480px)
+{
+    .hItem a{
+        font-size: 40px;
+    }
+  }
+
+@media screen and (min-width : 1204px)
+{
+   .hItem a{
+        font-size: 50px;
+    }
+}
+@media screen and (min-width : 1300px)
+{
+   .hItem a{
+        font-size: 60px;
+    }
+}
+@media
+@media screen and (min-width : 1400px)
+{
+   .hItem a{
+        font-size: 60px;
+    }
+}
+@media
+@media screen and (min-width : 1500px)
+{
+   .hItem a{
+        font-size: 60px;
+    }
+}
+@media
+@media screen and (min-width : 1600px)
+{
+   .hItem a{
+        font-size: 70px;
+    }
+}
+@media screen and (min-width : 1700px)
+{
+   .hItem a{
+        font-size: 70px;
+    }
+}
+@media screen and (min-width : 1800px)
+{
+   .hItem a{
+        font-size: 70px;
+    }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>REGULAR BOLD</title>
+    <link rel="shortcut icon" href="img/rblogo.ico">
+    <link rel="apple-touch-icon" href="img/rblogo.png">
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+     <script src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+   <script>
+    
+       $(function(){
+           
+           $("header nav ul#menu li a").wrapInner("<span class=\"out\"></span>")
+           $("ul#menu li a").each(function(){
+               $("<span class=\"over\">"+$(this).text()+"</span>").appendTo(this);
+           })
+           $("ul#menu li a").hover(function(){
+               $(".out",this).animate({"top":"45px"},200)
+               $(".over",this).animate({"top":"0px"},200)
+           },function(){
+               $(".out",this).animate({"top":"0px"},200)
+               $(".over",this).animate({"top":"-45px"},200)
+           })
+           
+       })
+    
+    
+    </script>
+    
+    
+</head>
+<body>
+    
+
+    <div id="topFix"><img src="img/top.jpg" alt="픽스"></div>
+    
+    <header>
+        <h1>
+            <a href="index.html">
+                <img src="img/logo.jpg" alt="로고">
+            </a>
+        </h1>
+        
+        <input type="checkbox" id="totalMenu"><label for="totalMenu">MENU
+        <img src="img/hambug.png"></label>
+        
+        <nav>
+            <ul id="menu">
+                <li><a href="#none">About</a></li>
+                <li><a href="#none">Works</a></li>
+                <li><a href="#none">Story</a></li>
+                <li><a href="#none">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div id="gnb">
+            <ul>
+                <li><img src="img/f_s_01.png" alt="facebook"></li>
+                <li><img src="img/f_s_03.png" alt="search"></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section>
+       <div>
+        <p>
+        
+        <span class="newRoman big">Regular<b>Bold</b> is a leading contender out of Korea creative groups, we were established by the excellent
+        directors in diverse sectors.</span>
+
+           <span class="newRoman">Regular<b>Bold</b></span>는 다양한 분야의 뛰어난 디렉터들이 만든
+        <b>국내 최고의 크리에이티브 그룹</b>입니다.
+        </p>
+        
+        <a href="#none" class="actionBtn1">
+        <span class="hover"></span>
+        <span class="button">채용공지</span>
+        </a>
+        
+        </div>
+        <div id="sec_logo">
+            <img src="img/rb_logo_2.png" alt="logo" class="logo_front">
+           <img src="img/rb_logo.png" alt="logo" class="logo_back">
+        </div>
+    </section>
+    
+    
+    <div id="imgWrap">
+        <ul class="imgHover">
+            <li><img src="img/01_brand.jpg" alt="브랜드"></li>
+            <li><img src="img/02_uiux.jpg" alt="유아이유엑스"></li>
+            <li><img src="img/03_campaign.jpg" alt="캠페인"></li>
+            <li><img src="img/04_movie.jpg" alt="영화"></li>
+            <li><img src="img/05_printpackage.jpg" alt="패키지"></li>
+            <li><img src="img/06_exhibition.jpg" alt="전시"></li>
+            <li><img src="img/07_bookproduct.jpg" alt="책제품"></li>
+            <li><img src="img/08_illustgraphic.jpg" alt="일러"></li>
+            
+        </ul>
+    </div>
+    
+    <div id="aboutWrap">
+        <p>
+            <span class="big newRoman">about Regular<b>Bold</b></span>
+            It is a total creative platform which responds to the brand, contents, digital marketing and times of convergence.
+            
+    
+        
+    <a class="aboutBtn">
+	
+	 <span class="txtHidden">More Info</span>
+
+    </a>
+
+        
+        </p>
+        <img src="img/people_01-1.png" alt="사람들">
+    </div>
+    
+    <div id="ourNews">
+       
+        <h2 class="newRoman">Our News</h2>
+        <p>
+        고객의 브랜드에 통합적으로 반응하고 함께하는 <span class="newRoman">Regular<b>Bold</b></span>입니다.
+        </p>
+        <div id="figureWrap">
+        <figure>
+           <div>
+            <img src="img/recruit.jpg" alt="채용정보">
+            </div>
+            <figcaption>
+                [Recruit] RegularBold 채용공지
+                <Span>2016년 3월 21일</Span>
+            </figcaption>
+        </figure>
+        
+        <figure>
+           <div>
+            <img src="img/degital_media.jpg" alt="디지털 미디어">
+            </div>
+            <figcaption>
+                 디지털 미디어 디자인 감정과 이성의 경계에 서서
+                <span>2016년 3월 17일</span>
+            </figcaption>
+        </figure>
+        
+        <figure>
+           <div>
+            <img src="img/news.jpg" alt="컨퍼런스">
+            </div>
+            <figcaption>
+                 2016년 웹트렌드 컨퍼런스에 'Trend Insight &amp; Outsight' 주제로 RegularBold의 첫 강연을 진행하였습니다.
+                <span>2016년 1월 24일</span>
+            </figcaption>
+        </figure>
+        </div>
+    </div>
+    
+    <div id="contact">
+        <div id="textWrap">
+            <p>
+               <span class="big newRoman"><b>Contact</b></span>
+               고객의 브랜드에 통합적으로 반응하고 함께하는 Regular<b>Bold</b>입니다.
+            </p>
+            
+            <span class="button">
+                    More Info
+            </span>
+                
+        </div>
+    </div>
+    
+    <footer>
+        
+        <dl>
+            <dt>COPYRIGHT</dt>
+            <dd>powered by RegularBold</dd>
+        </dl>
+        
+        <dl>
+            <dt>FOLLOW</dt>
+            <dd>Facebook</dd>
+        </dl>
+        
+        <dl>
+            <dt>CONTACT</dt>
+            <dd>Email / hello@regularbold.co.kr
+            <span></span>        
+            TEL/02 123 4567</dd>
+        </dl>
+        
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,1062 @@
+@import url(reset.css);
+@import url(common.css);
+
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+
+html{
+    background-color: #000000
+}
+
+
+/*div#logIn 시작*/
+
+div#logIn{background-color: black; overflow: hidden;}
+div#logIn div{width: 90%; margin: auto;}
+div#logIn div ul{float: right; line-height: 22px;}
+div#logIn div ul li{float: left; }
+div#logIn div ul li:after{content:"|"; color:white; font-size: 10px;}
+div#logIn div ul li:last-child:after{display: none}
+div#logIn div ul li a{color: white; font-size: 11px; letter-spacing: 2px; padding: 0 10px;}
+
+/*header 시작*/
+
+header {
+    background-color: black
+}
+
+div.wrap70 {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    position: absolute
+}
+
+header nav{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+header nav ul {
+    width: 70%;
+    margin: auto;
+    padding-top: 20px
+}
+
+header nav ul li {
+   width: 16%;
+    display: inline-block;
+    text-align: center;
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all .5s
+}
+
+header nav ul li:hover a {
+    color: #920529
+}
+
+header div#gnb {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+header div#gnb ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+header div#gnb ul li:after {
+    content: "";
+    height: 1px;
+    width: 0;
+    background-color: #9e0b0f;
+    display: block;
+    transition: all 1s
+}
+
+header div#gnb ul li:hover:after {
+    width: 100%;
+}
+
+/*wrap 시작*/
+
+
+.wrap {
+    margin: 0px auto;
+}
+
+#popup {
+    background: url("../img/pop2.png") no-repeat;
+    background-size: cover;
+    left: 155px;
+    top: 200px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: absolute;
+    z-index: 100;
+}
+
+p.popbtn {
+    color: rgb(255, 255, 255);
+    padding-top: 300px;
+    font-size: 11px;
+}
+
+p.popbtn label {
+    margin-right: 3px;
+
+}
+
+#check {
+    display: none;
+}
+
+#check + label span {
+    vertical-align: middle;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../img/chk.png) left top no-repeat;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+#check:checked + label span {
+    background: url(../img/chk.png) -13px top no-repeat;
+}
+
+
+.popclose {
+    background: white;
+    border: 0;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    color: #9e0b0f;
+    font-size: 10px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px 0 !important;
+}
+
+/*section 시작*/
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+section div.mobile {
+    display: none;
+}
+
+section ul li.secSlide {
+    position: relative
+}
+
+section ul li.secSlide img.ban {
+    z-index: -3
+}
+
+section ul li.secSlide span.big {
+    display: block;
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 5em
+}
+
+section ul li.secSlide span.big:first-child {
+    left: 20%;
+}
+
+section ul li.secSlide span.big:nth-child(2) {
+    right: 17%;
+}
+
+section ul li.secSlide span.small {
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: lighter
+}
+
+section ul li.secSlide span.topLeft {
+    top: 10%;
+    left: 10%;
+}
+
+section ul li.secSlide span.topLeft:before {
+    content: '';
+    width: 5px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 8px
+}
+
+section ul li.secSlide span.topRight {
+    top: 10%;
+    right: 10%;
+    text-align: right
+}
+
+section ul li.secSlide span.botLeft {
+    bottom: 10%;
+    left: 10%;
+}
+
+section ul li.secSlide span.botRight {
+    bottom: 10%;
+    right: 10%;
+    text-align: right
+}
+
+section ul li.secSlide img.viewMore {
+    position: absolute
+}
+
+section ul li a.secVM {
+    display: block;
+    width: 12%;
+    height: 4%;
+    position: absolute;
+    right: 21%;
+    top: 62%;
+    background-color: #9e0b0f;
+    border-radius: 50px;
+}
+
+section ul li a.secVM img {
+    width: 90% !important;
+    padding-left: 3%;
+    text-align: center
+}
+
+.flex-control-nav {
+    bottom: 3% !important;
+    z-index: 99 !important
+}
+
+
+/*div#history 시작*/
+
+div#history {
+    background-color: white;
+    padding-bottom: 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+div.hisMob {
+    display: none;
+}
+
+div#history h2 {
+    text-align: center;
+    font-family: "NanumSquareEB";
+}
+
+div#history p {
+    text-align: center;
+}
+
+div#historySld {
+    width: 1437px;
+    margin: auto;
+    overflow: hidden;
+}
+
+div.container {
+    width: 10000px;
+    overflow: hidden;
+}
+
+.hisItem {
+    text-align: center;
+    float: left;
+}
+
+.hisItem span {
+    display: block;
+    font-weight: bold
+}
+
+.hisItem img,
+.hisItem span {
+    text-align: center
+}
+
+.container .hisItem img {
+    width: 100%;
+}
+
+div#hisLeft,
+div#hisRight {
+    color: #9e0b0f;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    cursor: pointer
+}
+
+div#hisLeft {
+    left: 5%;
+}
+
+div#hisRight {
+    right: 5%;
+}
+
+/*div.proWrap*/
+
+div.proWrap {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    height: 36vw;
+}
+
+div#proCam figure,
+div#proLens figure {
+    cursor: pointer
+}
+
+/*div#proCam 시작*/
+
+div#proCam {
+    background-image: url(../img/proCam_bg.png);
+    background-size: cover;
+    text-align: center;
+    padding: 5%;
+}
+
+div#proCam > div.proWrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+div#proCam div.proWrap > figure,
+div#proCam div.proWrap div#camCenter {
+    flex: 1;
+    margin: 10px;
+    overflow: hidden
+}
+
+div#proCam div.proWrap > figure,
+div#proCam div.proWrap > div#camCenter > figure {
+    position: relative;
+    transition: .5s all
+}
+
+div#proCam div.proWrap > div#camCenter > figure {
+    overflow: hidden;
+}
+
+div#proCam div.proWrap > figure > span {
+    display: none;
+    width: 90%;
+    height: 94%;
+    border: 1px solid #9e0b0f;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    transition: 1s all
+}
+
+div#proCam div.proWrap > div#camCenter > figure > span {
+    width: 96%;
+    border: 1px solid #9e0b0f;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    transition: 1s all;
+    display: none
+}
+
+div#proCam div.proWrap > div#camCenter > figure:first-child > span {
+    height: 91%;
+}
+
+div#proCam div.proWrap > div#camCenter > figure:last-child > span {
+    height: 85%;
+}
+
+div#proCam div.proWrap > figure > img {
+    transition: .5s all
+}
+
+div#proCam div.proWrap > div#camCenter > figure > img {
+    transition: .5s all
+}
+
+div#proCam div.proWrap > figure > figcaption {
+    position: absolute;
+    color: #000;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    text-align: left;
+    transform: scale3d(0, 0, 0);
+    font-size: 13px;
+}
+
+div#proCam div.proWrap > div#camCenter > figure > figcaption {
+    position: absolute;
+    color: #000;
+    overflow: hidden;
+    font-size: 10px;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    top: 37%;
+    left: 25%;
+    transform: scale3d(0, 0, 0);
+}
+
+div#proCam div.proWrap > div#camCenter > figure > figcaption p {
+    padding-top: 5px
+}
+
+div#proCam div.proWrap > figure:hover {
+    background: white
+}
+
+div#proCam div.proWrap > div#camCenter > figure:hover {
+    background: white;
+    overflow: hidden;
+}
+
+div#proCam div.proWrap > figure:hover > span,
+div#proCam div.proWrap > div#camCenter > figure:hover > span {
+    display: block;
+    z-index: 1
+}
+
+div#proCam div.proWrap > figure:hover > img,
+div#proCam div.proWrap > div#camCenter > figure:hover > img {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+div#proCam div.proWrap > figure:hover figcaption,
+div#proCam div.proWrap > div#camCenter > figure:hover figcaption {
+    transform: scale3d(1.2, 1.2, 1)
+}
+
+div#proCam div.proWrap figure > img {
+    width: 100%;
+}
+
+div#proCam div.proWrap > figure:hover figcaption > img,
+div#proCam div.proWrap > div#camCenter > figure:hover figcaption > img {
+    width: 20%;
+    padding-top: 20px;
+}
+
+div#proCam div.proWrap div#camCenter {
+    flex-grow: 1.5
+}
+
+div#proCam div.proWrap div#camCenter div#camView {
+    width: 100%;
+    background-color: #9e0b0f;
+    transition: all 1s ease-out
+}
+
+div#proCam div.proWrap div#camCenter div#camView:hover {
+    background-color: #ce0000
+}
+
+div#proCam div.proWrap div#camCenter div#camView a {
+    display: block;
+    padding: 11% 0;
+}
+
+div#proCam div.proWrap div#camCenter div#camView a img {
+    width: 50%;
+}
+
+div#proCam div.proWrap div#camCenter > figure:first-child {
+    margin-bottom: 20px;
+}
+
+div#proCam div.proWrap div#camCenter > figure:last-child {
+    margin-top: 20px;
+}
+
+
+
+
+/*div#proLens 시작*/
+
+div#proLens {
+    background-image: url(../img/proLens_bg.png);
+    background-size: cover;
+    text-align: center;
+    padding: 5%;
+}
+
+div#proLens div#lensTop {
+    overflow: hidden;
+    height: 50%;
+}
+
+div#proLens div#lensTop figure {
+    float: left;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s all;
+}
+
+div#proLens div#lensTop figure img {
+    transition: .5s all;
+}
+
+div#proLens div#lensTop figure:first-child {
+    width: 57%;
+}
+
+div#proLens div#lensTop figure:first-child > img {
+    width: 100%;
+}
+
+div#proLens div#lensTop figure:last-child {
+    width: 39%;
+}
+
+div#proLens div#lensTop figure:last-child > img {
+    width: 100%;
+}
+
+div#proLens div#lensTop figure span {
+    width: 96%;
+    height: 91%;
+    border: 1px solid #9e0b0f;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    transition: 1s all;
+    display: none;
+}
+
+div#proLens div#lensTop figure figcaption {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    transform: scale3d(0, 0, 0);
+    font-size: 13px
+}
+
+div#proLens div#lensTop figure figcaption h3 {
+    padding-bottom: 5px
+}
+
+div#proLens div#lensTop figure figcaption img {
+    width: 50px;
+    padding-top: 20px;
+}
+
+div#proLens div#lensTop figure:hover {
+    background-color: rgba(255, 255, 255, 1)
+}
+
+div#proLens div#lensTop figure:hover > img {
+    opacity: .3;
+    transform: scale(1.1)
+}
+
+div#proLens div#lensTop figure:hover figcaption {
+    transform: scale3d(1.2, 1.2, 1)
+}
+
+div#proLens div#lensTop figure:hover > span {
+    display: block;
+    z-index: 1;
+}
+
+
+
+div#proLens div#lensBot {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    overflow: hidden;
+
+}
+
+div#proLens div#lensBot figure,
+div#proLens div#lensBot div {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+div#proLens div#lensBot figure {
+    transition: .5s all;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+div#proLens div#lensBot figure:first-child {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 10px;
+}
+
+div#proLens div#lensBot figure:nth-child(2) {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0 20px 10px;
+}
+
+div#proLens div#lensBot figure > img {
+    width: 100%;
+    height: 100%;
+    transition: .5s all
+}
+
+div#proLens div#lensBot figure span {
+    width: 96%;
+    height: 93%;
+    border: 1px solid #9e0b0f;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    transition: 1s all;
+    display: none;
+}
+
+div#proLens div#lensBot figure figcaption {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 23%;
+    font-size: 12px;
+    transform: scale3d(0, 0, 0);
+}
+
+div#proLens div#lensBot figure figcaption h3 {
+    padding-bottom: 5px;
+
+}
+
+div#proLens div#lensBot figure figcaption img {
+    width: 50px;
+    padding-top: 20px;
+}
+
+div#proLens div#lensBot div.proVM {
+    width: 100%;
+    background-color: #9e0b0f;
+    transition: all 1s ease-out;
+    overflow: hidden;
+    margin: 20px 23px;
+    cursor: pointer;
+}
+
+div#proLens div#lensBot figure:hover figcaption {
+    transform: scale3d(1.2, 1.2, 1);
+}
+
+div#proLens div#lensBot figure:hover > img {
+    opacity: .3;
+    transform: scale(1.1)
+}
+
+div#proLens div#lensBot figure:hover > span {
+    display: block;
+    z-index: 1
+}
+
+div#proLens div#lensBot div.proVM img {
+    padding-top: 27%
+}
+
+div#proLens div#lensBot div.proVM:hover {
+    background-color: #ce0000;
+}
+
+/*div#divide 시작*/
+
+.bright{
+    height: 15vw;
+    width: 100%;
+}
+
+div#divide {
+    height: 15vw;
+    overflow: hidden;
+}
+
+div#divide div#magazine,
+div#divide div#academy {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-size: cover;
+    transition: 2s all;
+    background-color: rgba(10,10,10,1);
+}
+
+div#divide div#magazine{
+    
+    background: url(../img/4_magazine.jpg) ;
+    
+}
+
+div#divide div#academy{
+    background: url(../img/4_academy.png);
+}
+div#divide>div:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    width: 100%;
+    height: 0;
+    transition: .3s all;
+
+}
+div#divide>div:hover:before{
+    height: 100%;
+    background-color: #9e0b0f;
+    
+}
+
+div#divide div#magazine a,
+div#divide div#academy a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+div#divide div#magazine img,
+div#divide div#academy img{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    z-index: 1
+    
+}
+
+
+
+
+/*div#pom 시작*/
+
+div#pom {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+div#pom ul {
+    width: 10000px;
+    height: 1268px;
+    margin-left: -2000px
+}
+
+div#pom ul li {
+    float: left;
+    position: relative
+}
+
+div#pom ul li span {
+    display: block;
+    color: white;
+    position: absolute;
+}
+
+div#pom ul li span.pomTxt {
+    font-size: 4em;
+    letter-spacing: 10px;
+    right: 40%;
+    top: 73%;
+}
+
+div#pom ul li span.pomPhoto {
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    right: 44%;
+    top: 80%;
+}
+
+div#pom ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+div#pom div#pomVM {
+    background-color: #9e0b0f;
+    position: absolute;
+    left: 43%;
+    top: 85%;
+    border-radius: 50px;
+    text-align: center;
+    transition: .5s all
+}
+
+div#pom div#pomVM:hover {
+    background-color: #ee0b0f
+}
+
+div#pom div#pomVM a img {
+    width: 80%;
+    padding: 10px 20px;
+}
+
+/*div#sustain 시작*/
+
+div#sustain {
+    background-image: url(../img/sustain_bg.png);
+    background-size: cover;
+    padding: 100px 0;
+    position: relative
+}
+
+.susRed {
+    display: inline-block;
+    content: "";
+    height: 20px;
+    width: 5px;
+    background-color: #9e0b0f;
+}
+
+div#sustain > span {
+    display: block;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: #9e0b0f;
+    position: absolute;
+}
+
+div#sustain span.susLeft {
+    left: 50px;
+    top: 50px;
+}
+
+div#sustain span.susRight {
+    bottom: 50px;
+    right: 50px;
+}
+
+div#susWrap {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+div#susWrap div#susTop,
+div#susWrap div#susBot {
+    padding: 50px 0;
+}
+
+div#susWrap div#susTop p,
+div#susWrap div#susBot p {
+    padding-top: 10px;
+}
+
+div#susWrap div#susTop {
+    overflow: hidden;
+}
+
+div#susWrap h2 {
+    font-size: 40px;
+}
+
+div#susWrap div#susTop div#topTxt {
+    width: 70%;
+}
+
+div#susWrap div#susTop img {
+    width: 20%
+}
+
+div#susWrap div#susTop div#topTxt,
+div#susWrap div#susTop img {
+    display: inline-block;
+}
+
+.susBig {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div#susWrap div#susBot div#botTxt,
+div#susWrap div#susBot img {
+    display: inline-block
+}
+
+div#susWrap div#susBot {
+    overflow: hidden;
+}
+
+div#susWrap div#susBot div#botTxt {
+    width: 70%;
+    text-align: right;
+}
+
+div#susWrap div#susBot img {
+    width: 20%;
+}
+
+/*div#shop 시작*/
+
+div#shop {
+    background-image: url(../img/shop_bg.png);
+    background-size: cover;
+}
+
+div.shopWrap {
+    padding: 10%;
+}
+
+div.shopCont {
+    width: 50%;
+    height: 700px;
+    background-color: #070707;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+div.shopCont span {
+    display: block;
+    color: #9e0b0f;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 15%;
+    padding-left: 3%;
+}
+
+div.shopCont h2 {
+    font-size: 30px;
+    color: white;
+    padding: 5%;
+    letter-spacing: 10px
+}
+
+div.shopCont div.shopBtn {
+    background-color: #9e0b0f;
+    width: 50%;
+    margin: 10px auto;
+    padding: 15px 10px;
+    border-radius: 30px;
+    transition: all 1s
+}
+
+div.shopCont div.shopBtn a {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 5px;
+    display: block;
+}
+
+div.shopCont div.shopBtn:hover {
+    background-color: #ce0000;
+}
+
+/*footer 시작*/
+
+footer {
+    background-color: black;
+    padding-top: 30px;
+}
+
+footer div#footWrap {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+footer div#footWrap ul#footList {
+    padding: 10px;
+}
+
+footer div#footWrap ul#footList li {
+    display: inline-block;
+    font-size: 11px;
+}
+
+footer div#footWrap ul#footList li:after {
+    content: "|";
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+footer div#footWrap ul#footList li:last-child:after {
+    display: none
+}
+
+footer div#footWrap ul#footList li a {
+    color: white;
+}
+
+footer div#footWrap ul#footGnb {
+    padding: 10px;
+}
+
+footer div#footWrap ul#footGnb li {
+    display: inline-block
+}
+
+footer div#footWrap p {
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+
+section {
+    width: 100%;
+}
+
+#itemWrap {
+    height: calc(100vh - 150px);
+
+}
+
+#itemWrap > div {
+    float: left;
+    height: 50%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 3em;
+    position: relative;
+}
+
+#itemWrap > div > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-weight: bold;
+    
+
+}
+#itemWrap > div a.hover{
+    transition: 2s all;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+}
+#itemWrap > div:hover a.hover {
+    display: block;
+    height: 100%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+}
+
+#itemWrap > div:hover a:first-child{
+    display: none;
+}
+
+.itemsBig {
+    width: 40%;
+    background-color: rgba(252, 217, 29, 1)
+}
+
+.items {
+    width: 30%;
+    background-color: rgba(252, 217, 29, .8)
+}
+
+.itemsBig>a{
+    padding-top: 20%;
+}
+.items>a{
+    padding-top: 25%;
+}
+
+#all:hover{
+    background-image: url(../images/bg4.png);
+}
+
+#top:hover {
+    background-image: url(../images/bg2.png);
+}
+
+#bot:hover {}
+
+#new:hover {
+    background-image: url(../images/bg1.png);
+}
+
+#acc:hover {}
+
+#etc:hover {}
