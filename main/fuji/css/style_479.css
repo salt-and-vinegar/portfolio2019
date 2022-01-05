@@ -1,0 +1,823 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    body {
+        background-color: black;
+    }
+
+    div#proCam,
+    div#proLens,
+    div#divide,
+    div#pom,
+    div#sustain,
+    div#shop,
+    footer {
+        transform: translateY(0) !important
+    }
+    
+    div#logIn{
+        display: none;
+    }
+    
+    header h1 {
+        left: 37%;
+        top: 10%;
+    }
+
+    header nav {
+        width: 20px;
+        height: 20px;
+        background: url(../img/mobileB.png);
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    header div#gnb li img {
+        width: 80%;
+    }
+
+    header div#gnb ul li:after {
+        display: none;
+    }
+    
+    .open {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 90%;
+        background-image: url(../img/bgbgbgbgbgbg.jpg);
+        background-size: cover;
+        z-index: 999;
+        padding-top: 30%
+    }
+
+    header nav ul.open span {
+        position: absolute;
+        z-index: -2;
+        color: #9e0b0f;
+    }
+
+    header nav ul.open span#mobAni1 {
+        animation: mobAni1 20s infinite ease-in-out;
+        opacity: .5;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #9e0b0f;
+    }
+
+    header nav ul.open span#mobAni2 {
+        animation: mobAni2 16s infinite;
+        opacity: .3;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #9e0b0f;
+    }
+
+    header nav ul.open span#mobAni3 {
+        animation: mobAni3 24s infinite;
+        opacity: .7;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #9e0b0f;
+    }
+
+    header nav ul.open span#mobAni4 {
+        animation: mobAni4 12s infinite ease-in-out;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #9e0b0f;
+    }
+
+
+    @keyframes mobAni1 {
+        0% {
+            top: -100px;
+            left: -100px;
+        }
+
+        50% {
+            top: 200px;
+            left: 500px;
+        }
+
+        100% {
+            top: 600px;
+            left: -100px;
+        }
+    }
+
+    @keyframes mobAni2 {
+        0% {
+            top: 800px;
+            left: 400px;
+        }
+
+        25% {
+            top: 200px;
+            left: -100px;
+        }
+
+        100% {
+            top: -100px;
+            left: 200px;
+        }
+    }
+
+    @keyframes mobAni3 {
+        0% {
+            top: -100px;
+            left: 700px;
+        }
+
+        75% {
+            top: 500px;
+            left: -200px;
+        }
+
+        100% {
+            top: 900px;
+            left: -124px;
+        }
+    }
+
+    @keyframes mobAni4 {
+        0% {
+            left: 100px;
+            top: -100px;
+        }
+
+        50% {
+            left: 150px;
+            top: 1000px;
+        }
+
+        100% {
+            left: 400px;
+            top: -100px;
+        }
+    }
+
+    header nav ul.open li {
+        display: block !important;
+        margin: 10% auto;
+        text-align: left;
+        width: 50%;
+    }
+
+    header nav ul.open li a {
+        font-size: 1.5em;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+
+    #popup {
+        display: none;
+    }
+
+    section div.flexslider {
+        display: none !important;
+    }
+
+    section div.mobile {
+        display: block;
+        position: relative;
+    }
+
+    section div.mobile div.secBtn {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        z-index: 1;
+    }
+
+    section div.mobile div.secBtn button {
+        border: 0;
+        background-color: black;
+        color: white;
+    }
+    #mobile_sec_wrap{
+        width: 100%;
+        overflow: hidden;
+    }
+    section div.mobile ul {
+       width: 10000px;
+    }
+
+    section div.mobile ul li {
+        position: relative;
+        background-color: black;
+        float: left;
+    }
+
+    section div.mobile ul li img {
+       
+    }
+
+    section div.mobile ul li span {
+        color: white;
+        position: absolute;
+        transform: scale(.98, 1.02)
+    }
+
+    section div.mobile ul li span.secTitle {
+        font-size: .7em;
+        top: 12%;
+        left: -5%;
+        letter-spacing: 5px;
+        color: rgba(255, 255, 255);
+        transform: rotate(90deg)
+    }
+
+    section div.mobile ul li span.secLine {
+        height: 40%;
+        background-color: white;
+        width: 1px;
+        left: 4%;
+        top: 25%;
+    }
+
+    section div.mobile ul li span.secSort {
+        font-size: 1.3em;
+        letter-spacing: 8px;
+        left: 4%;
+        bottom: 25%;
+    }
+
+    section div.mobile ul li span.secName {
+        font-size: 4em;
+        font-weight: bold;
+        letter-spacing: 11px;
+        left: 3%;
+        bottom: 8%;
+    }
+
+    div#history {
+
+        transform: translateY(0) !important;
+        position: relative;
+        padding-top: 20%;
+        padding-bottom: 15%;
+        background-image: url(../img/hisMobbg.jpg);
+        background-size: contain;
+
+    }
+
+    div#historySld {
+        display: none;
+    }
+
+    div#history div#hisLeft,
+    div#history div#hisRight {
+        display: none;
+    }
+
+    div#history > span {
+        width: 20px;
+        height: 5px;
+        background-color: #9e0b0f;
+        display: block;
+        margin: 20px auto;
+
+
+    }
+
+    div#history h2 span:first-child,
+    div#history h2 span:last-child {
+        color: white;
+        display: block;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 20px
+    }
+
+    div#history h2 span:nth-child(2) {
+        color: #9e0b0f;
+        display: block;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        font-size: 21px;
+
+
+    }
+
+    div#history > p {
+        color: white;
+        width: 40%;
+        margin: auto;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+
+    div.hisMob {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .hisMitemT {
+        padding-top: 20%
+    }
+
+    .hisMbig {
+        color: white;
+        font-size: 5.5em;
+        line-height: .8em;
+        font-weight: bolder;
+        letter-spacing: -.05em;
+        transform: scale(.99, 1.02)
+    }
+
+    .hisMitemT .hisMbig {
+        display: block;
+    }
+
+
+    div.hisMob div.item1934 {
+        background-image: url(../img/mobhisBG1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+
+    div.hisMob div.item1934 div.hisMitemT span,
+    div.hisMob div.item1948 div.hisMitemT span {
+        margin-left: 50%
+    }
+
+    div.hisMob div.item1934 div.hisMitemB,
+    div.hisMob div.item1936 div.hisMitemB,
+    div.hisMob div.item1948 div.hisMitemB {
+        color: white;
+
+    }
+
+    div.hisMob div.item1934 div.hisMitemB div.hisMwrap,
+    div.hisMob div.item1936 div.hisMitemB div.hisMwrap,
+    div.hisMob div.item1948 div.hisMitemB div.hisMwrap {
+        width: 58%;
+        font-size: 10px;
+        display: inline-block;
+
+    }
+
+    div.hisMob div.item1934 div.hisMitemB div.hisMwrap p,
+    div.hisMob div.item1934 div.hisMitemB div.hisMwrap h4,
+    div.hisMob div.item1948 div.hisMitemB div.hisMwrap p,
+    div.hisMob div.item1948 div.hisMitemB div.hisMwrap h4 {
+        text-align: right !important;
+
+
+    }
+
+    div.hisMob div.item1934 div.hisMitemB span,
+    div.hisMob div.item1948 div.hisMitemB span {
+        width: 40%;
+        display: inline-block;
+
+    }
+
+    div.hisMob div.item1936 {
+        background-image: url(../img/mobhisBG2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    div.hisMob div.item1936 div.hisMitemT span {
+        margin-left: 20%
+    }
+
+    div.hisMob div.item1936 div.hisMitemB span {
+        text-align: right !important;
+        width: 40%;
+        display: inline-block;
+    }
+
+    div.hisMob div.item1936 div.hisMitemB div.hisMwrap p,
+    div.hisMob div.item1936 div.hisMitemB div.hisMwrap h4 {
+        text-align: left !important;
+    }
+
+    div.hisMob div.item1948 {
+        background-image: url(../img/mobhisBG3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+
+    div.hisMob div.itemMvm {
+        text-align: center;
+    }
+
+    div.hisMob div.itemMvm span {
+        width: 1px;
+        height: 40px;
+        background-color: #9e0b0f;
+        ;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    div.hisMob div.itemMvm a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 11px;
+        letter-spacing: 5px;
+        margin: 10px 0;
+
+
+    }
+
+    div.hisMob div.itemMvm img {
+        width: 5%;
+    }
+
+    .proWrap {
+        display: block;
+        height: auto !important;
+    }
+
+    div#proCam {
+        padding-top: 10%;
+        height: auto;
+        background-size: contain
+    }
+
+    div#proCam h2 {
+        font-size: 16px;
+    }
+
+    div#proCam > span {
+        font-size: 14px;
+    }
+
+    div#proCam p {
+        display: none;
+    }
+
+    div#proCam div.proWrap {
+        display: block;
+        overflow: inherit;
+
+
+    }
+
+    div#proCam div.proWrap > figure,
+    div#proCam div.proWrap > div#camCenter > figure {
+        height: 100px;
+        overflow: hidden;
+
+    }
+
+    div#proCam div.proWrap > figure:first-child {
+        background-image: url(../img/proCam_x-t3M.jpg);
+        background-size: cover;
+
+    }
+
+    div#proCam div.proWrap > figure:last-child {
+        background-image: url(../img/proCam_x100fM.jpg);
+        background-size: cover;
+    }
+
+    div#proCam div.proWrap > figure > img {
+        display: none;
+    }
+
+    div#proCam div.proWrap > figure span,
+    div#proCam div.proWrap > div#camCenter span {}
+
+    div#proCam div.proWrap > figure:hover > span,
+    div#proCam div.proWrap > div#camCenter > figure:hover > span {
+        border: 0;
+        background-color: rgba(255, 255, 255, .5);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+
+    }
+
+    div#proCam div.proWrap div#camCenter > figure:first-child {
+        margin-bottom: 10px;
+    }
+
+    div#proCam div.proWrap div#camCenter > figure:last-child {
+        margin-top: 10px;
+    }
+
+    div#proCam div.proWrap > figure:hover > img,
+    div#proCam div.proWrap > div#camCenter > figure:hover > img {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    div#proCam div.proWrap > figure > figcaption {
+        text-align: center;
+        top: 35%;
+        font-size: 30px;
+        color: rgba(255, 255, 255);
+        letter-spacing: 5px;
+
+    }
+
+    div#proCam div.proWrap > div#camCenter > figure > figcaption {
+        text-align: center;
+        top: 30%;
+        left: 12%;
+        width: 80%;
+        font-size: 30px;
+        color: rgba(255, 255, 255);
+        letter-spacing: 5px;
+
+    }
+
+    div#proCam div.proWrap > figure:hover figcaption,
+    div#proCam div.proWrap > div#camCenter figure:hover figcaption {
+        z-index: 2;
+    }
+
+    div#proCam div.proWrap > figure:hover figcaption img,
+    div#proCam div.proWrap > div#camCenter figure:hover figcaption img {
+        display: none;
+    }
+
+    div#proLens div#lensTop figure,
+    div#proLens div#lensBot figure,
+    div#proLens div#lensBot div {
+        height: 100px;
+    }
+
+    div#proCam div.proWrap div#camCenter div#camView a img {
+        width: 70%;
+    }
+
+    div#proCam div.proWrap div#camCenter div#camView a {
+        padding: 12% 0;
+    }
+
+
+    div#proLens {
+        background-size: contain;
+    }
+
+    div#proLens div#lensTop figure:first-child,
+    div#proLens div#lensTop figure:last-child {
+        width: auto;
+        margin: 5px 10px;
+    }
+
+    div#proLens div#lensTop figure:last-child {
+        margin-bottom: 0;
+    }
+
+
+    div#proLens div#lensBot {
+        display: block
+    }
+
+    div#proLens div#lensBot figure:first-child,
+    div#proLens div#lensBot figure:nth-child(2) {
+        width: auto;
+        margin: 10px
+    }
+
+    div#proLens div#lensBot div.proVM {
+        width: auto;
+        margin: 5px 10px;
+    }
+
+    div#proLens div#lensBot div.proVM img {
+        width: 70%;
+        padding-top: 14%;
+    }
+
+    div#proLens div#lensTop figure figcaption{
+        top: 37%;
+        left: 0;
+        width: 100%;
+        
+    }
+    
+
+    
+    
+    div#proLens p,
+    div#proLens figure figcaption img {
+        display: none;
+    }
+
+    div#proLens div.proWrap > div#lensTop > figure:hover > span,
+    div#proLens div.proWrap > div#lensBot > figure:hover > span {
+        border: 0;
+        background-color: rgba(255, 255, 255, .5);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    div#proLens div.proWrap > div#lensTop > figure figcaption,
+    div#proLens div.proWrap > div#lensBot > figure figcaption {
+        z-index: 2
+    }
+
+    div#proLens div.proWrap > div#lensBot > figure figcaption {
+        top: 29%;
+        left: 12%;
+   
+    }
+
+    div#proLens div.proWrap > div#lensTop > figure figcaption h3,
+    div#proLens div.proWrap > div#lensBot > figure figcaption h3 {
+        color: white;
+        font-size: 30px;
+
+    }
+
+    div#proLens div#lensTop figure:hover > img,
+    div#proLens div#lensBot figure:hover > img {
+        transform: scale(1);
+    }
+
+    div#proLens div#lensTop figure span,
+    div#proLens div#lensBot figure span {
+        transition: 0;
+    }
+
+
+
+    div#divide {
+        height: 300px;
+    }
+
+    div#divide div#magazine,
+    div#divide div#academy {
+        width: 100%;
+        height: 150px;
+        display: block;
+    }
+    
+    .bright{
+        height: 100%;
+    }
+
+    div#divide div#magazine a,
+    div#divide div#academy a {
+        display: block;
+    }
+
+    div#divide div#magazine div.hover,
+    div#divide div#academy div.hover {
+        top: 40%;
+        left: 10%;
+    }
+
+    div#divide div#magazine div.hover img,
+    div#divide div#academy div.hover img {
+        width: 90%;
+    }
+
+    div#pom {
+        padding: 20% 0;
+    }
+
+    div#pom ul {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    div#pom ul:after {
+
+        content: "PHOTO OF THE MONTH";
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 4px;
+        padding: 20px 0;
+
+    }
+
+    div#pom ul li {
+        width: 45%;
+        height: 100px;
+        float: none;
+        display: inline-block;
+        margin: 5px;
+        overflow: hidden;
+
+    }
+
+    div#pom ul li img {
+        transition: .5s all
+    }
+
+
+    div#pom ul li:hover img {
+        transform: scale(1.1)
+    }
+
+    div#pom ul li span {
+        display: none;
+    }
+
+    div#pom div#pomVM {
+        position: relative;
+        /*abs끄려고 이렇게 한 거*/
+        margin: auto;
+        width: 50%;
+        left: 0;
+        top: 0;
+    }
+
+
+    div#sustain {
+        background-image: url(../img/sustain_bgm.png);
+        background-size: cover;
+    }
+
+    div#sustain div#susTop img {
+        display: none;
+    }
+
+    div#susWrap div#susTop div#topTxt,
+    div#susWrap div#susBot div#botTxt {
+        width: 100%;
+    }
+
+    div#susWrap div#susTop div#topTxt:before {
+
+        content: "";
+        display: block;
+        background-image: url(../img/rescue.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin: 20px 0;
+
+    }
+
+    div#susWrap div#susBot img {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0;
+    }
+
+    div#shop {
+        background-image: url(../img/shop_bg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    div.shopCont {
+        width: 90%;
+        height: 350px;
+        background-color: #070707;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+
+    div.shopCont h2 {
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+    div.shopCont span {
+        padding-bottom: 0
+    }
+
+    div.shopCont div.shopBtn a {
+
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    footer div#footWrap {
+        width: 80%;
+    }
+
+    footer div#footWrap ul#footList {
+        display: none;
+    }
+
+
+}

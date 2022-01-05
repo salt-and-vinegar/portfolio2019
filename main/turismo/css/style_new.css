@@ -1,0 +1,87 @@
+@import url(scrollbtn.css);
+@import url(slider.css);
+
+body{background-image: url(../images/bg.png); background-size: cover}
+header,section,div#hover,article,div#news,div#popup{transform: translateY(10em);transition: all .5s ease;}
+
+/*div#gnb 시작*/
+
+div#gnb{background-color: #3d4dca;}
+
+div#gnb{width: 100%;/*padding-bottom: 5px;*/ margin-bottom: 5px}
+/*gnb의 padding 값과 div#gnb ul의 lh값 중 선택해서 높이 맞추기
+수직높이 조절 때문에..*/
+div#gnb div.wrap90{}
+div#gnb div.wrap90 ul{float: right; line-height: 22px;}
+div#gnb div.wrap90 ul li{float: left; }
+div#gnb div.wrap90 ul li:after{content:"|"; color:white; font-size: 10px;}
+div#gnb div.wrap90 ul li:last-child:after{display: none}
+div#gnb div.wrap90 ul li a{color: white; font-size: 11px; letter-spacing: 2px; padding: 0 10px;}
+
+/*header 시작*/
+header{position: relative; z-index: 55; background-color: white}/*section에 ovh하면 늘어나서 section이 밀림*/
+header h1{float: left;width: 15%;}
+header h1 a{}
+header h1 a img{}
+nav{float: left; width: 75%; }
+nav>ul{text-align: center;}
+nav>ul>li{display: inline-block; position: relative; text-align: center; width: 16%; }
+nav>ul>li>a{color: white; font-size: 12px; letter-spacing: 5px; display: block; padding-top: 20px; transition: .5s all ease}
+nav>ul>li>a:hover{font-weight: bold}
+nav ul ul{background-color: #1e285b;position: absolute; width: 100%; left: 0;top: 70px;}
+nav ul ul li{}
+nav ul li ul li a{color: white; font-size: 12px}
+
+
+/*
+nav>ul>li>ul{position: absolute;text-align: left; z-index: 3; top: 69px; height: 0; overflow: hidden; width: 100%;}
+nav>ul>li>ul>li{}
+nav>ul>li>ul>li>a{font-size: 13px; color: white; display: block; padding: 10px;}
+nav>ul>li:hover ul{height: 100%; background-color: #1e285b;}
+*/
+
+/*section 시작*/
+
+section{clear: both; width: 100%;background-color: transparent; position: relative}
+section div#secRound{position: absolute; z-index: 1; animation:move 10s infinite linear; width: 100px; height: 100px; border-radius: 50%; background-color: cornflowerblue;}
+section div#secRound2{position: absolute; z-index: 2; animation:move2 10s infinite linear; width: 100px; height: 100px; border-radius: 50%; background-color: lightpink;}
+
+@keyframes move{
+    0%{top: 60%;left:  -10%}
+    25%{top: 60%;left:  25%}
+    50%{top: 60%;left:  50%}
+    75%{top: 60%;left:  75%}
+    100%{top: 60%;left: 110%}
+}
+@keyframes move2{
+    0%{top: 20%;right:  -10%}
+    25%{top: 20%;right:  25%}
+    50%{top: 20%;right:  50%}
+    75%{top: 20%;right:  75%}
+    100%{top: 20%;right: 110%}
+}
+
+section h2{display: none; border-bottom: 1px dotted white}
+section ul{}
+section ul.slides li{position: relative}
+section ul li img{width: 100%;}
+section ul li span{display: block; color: white; font-size: 10px; letter-spacing: 5px}
+section ul li span.lt{position: absolute; left: 50px;top: 50px;}
+section ul li span.lt:before{content: "■"; display: inline-block;}
+section ul li span.rt{position: absolute; right: 50px;top: 50px; text-align: right;}
+section ul li span.lb{position: absolute; left: 50px;bottom: 50px;}
+section ul li span.rb{position: absolute; right: 50px;bottom: 50px; text-align: right}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

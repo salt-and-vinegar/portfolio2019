@@ -1,0 +1,23 @@
+/*플러그인 수정부분*/
+
+
+/*flexslider 수정*/
+
+.flexslider{border: 0 !important; margin: 0 0 25px !important}
+/*margin  : 위 좌우 아래 로 잡을 수도 있다.*/
+.flex-control-paging li a{border: 2px solid white; background-color: transparent !important}
+.flex-control-paging li a.flex-active{background: rgba(255,255,255,0.5) !important}
+.flex-control-nav{bottom: 18px !important;}
+.flex-direction-nav a{color: rgba(255,255,255,.8) !important}
+.flex-direction-nav a:before{color: rgba(255,255,255,.8) !important}
+
+/* bxslider 수정*/
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{
+    text-align: right !important ; width: 20% !important; right: 0;
+}
+.bx-wrapper{border: 0 !important}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  width: 100% !important;
+}
+.bx-wrapper img{width: 100% !important; }

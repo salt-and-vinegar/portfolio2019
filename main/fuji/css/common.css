@@ -1,0 +1,8 @@
+body{
+    background-color: white
+}
+
+div#history,div#proCam,div#proLens,div#divide,div#pom,div#sustain,div#shop,footer{
+    transform: translateY(4em);transition: all .5s ease;
+}
+

@@ -1,0 +1,151 @@
+@media screen and (min-width:1201px) and (max-width:1400px) {
+
+
+     header h1{
+        left: 0;
+    }
+    
+    div.wrap70{
+        width: 80%;
+        padding: 30px 20px;
+    }
+    
+    header nav ul{
+        text-align: center;
+    }
+    header nav ul li{
+        width: 15%;
+    }
+    
+    header nav ul li a{
+        font-size: 12px
+    }
+    
+    section ul li.secSlide span.small{
+        font-size: 10px
+    }
+    section ul li.secSlide span.big{
+        font-size: 3em
+    }
+    
+    section ul li.secSlide span.big:first-child{
+        left: 20%;
+    }
+    
+    section ul li.secSlide span.big:nth-child(2){
+        right: 17%;
+    }
+    
+    section ul li a.secVM{
+        width: 15%;
+        height: 5%;
+        right: 20%;
+        top: 63%;
+    }
+    
+    div#historySld{
+        width: 1024px;
+    }
+    
+    .container .hisItem{
+        width: 1024px;
+    }
+    
+    div#proCam div.proWrap > figure > figcaption{
+        top: 34%;
+    }
+    
+    div#proCam div.proWrap > div#camCenter > figure > figcaption{
+        top: 29%;
+        left: 18%;
+        width: 70%;
+    }
+    
+    div#proCam div.proWrap div#camCenter > figure:first-child{
+        margin-bottom: 10px
+    }
+    
+    div#proCam div.proWrap div#camCenter > figure:last-child{
+        margin-top: 10px;
+    }
+    
+    div#proCam div.proWrap > div#camCenter > figure:hover figcaption > img{
+        padding-top: 10px;
+        width: 10%;
+    }
+    
+    
+    
+    div#proCam div.proWrap > figure > figcaption{
+        font-size: 11px
+    }
+    
+    div#proLens div#lensTop figure:first-child{
+        width: 56%;
+    }
+    
+    div#proLens div#lensTop figure:last-child{
+        width: 38%;
+    }
+    
+    div#proLens div#lensBot{
+        margin-top: 5px;
+    }
+    
+    div#proLens div#lensBot figure:first-child {
+
+    margin: 10px;
+}
+    
+    div#proLens div#lensBot figure:nth-child(2) {
+    margin: 10px;
+}
+    
+    div#proLens div#lensBot div.proVM{
+        margin: 10px 15px 10px 10px;
+    }
+    
+    div#proLens div#lensBot div.proVM img{
+        width: 90%;
+        padding-top: 30%;
+    }
+    
+    div#proLens div#lensTop figure figcaption{
+        top: 29%;
+        left: 15%;
+        width: 70%;
+        font-size: 11px
+    }
+    
+    div#proLens div#lensTop figure figcaption img{
+        padding-top: 10px;
+    }
+    
+    div#proLens div#lensBot figure figcaption{
+        width: 66%;
+        top: 25%;
+        left: 18%;
+        font-size: 10px
+    }
+    
+    div#susWrap div#susBot div#botTxt,
+    div#susWrap div#susTop div#topTxt{
+        width: 60%;
+    }
+    div#susWrap div#susBot img,
+    div#susWrap div#susTop img{
+        width: 36%;
+    }
+
+    
+    div.shopCont{
+        width: 60%;
+        height: 600px;
+    }
+    
+    footer div#footWrap{
+        width: 55%;
+    }
+    
+
+}

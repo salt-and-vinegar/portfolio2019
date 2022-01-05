@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FUJI FILM</title>
+    <link rel="shortcut icon" href="img/fujilogo.ico">
+    <link rel="apple-touch-icon" href="img/fujilogo.png">
+
+
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        
+
+        div#page{
+            height: 90vh;
+            overflow: hidden;
+            background-image: url(img/LogInBG.jpg);
+            background-size: cover;
+            position: relative;
+            padding-top: 10vh;
+        }
+        
+      
+        
+        div#back{
+            
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            
+        }
+        
+        div#back a{
+            
+            color: rgba(200,200,200,1);
+            letter-spacing: 5px;
+            display: block;
+            font-size: 12px
+            
+        }
+        
+        div#back a span{
+            font-size: 13px;
+            font-weight: bold;
+            display: inline-block;
+            color: white
+        }
+        
+        div#wrap{
+            width: 30%;
+            padding: 5% 10%;
+            margin: auto;
+            background-color: rgba(100,100,100,.1);
+            text-align: center;
+            
+        }
+        
+        div#wrap img{
+            margin-top: 20%;
+            margin-bottom: 5%
+        }
+        
+        div#wrap form input{
+            border: 0;
+            display: block;
+            margin: auto;
+            color:#fff;
+        }
+        
+        .my_box{
+          height: 20px;
+          padding: 10px 40px; 
+          text-align: left; 
+          border: 0;
+          background-color: rgba(255,255,255,.1);
+          font-size: 10pt; 
+          font-weight: normal; 
+        border-radius: 20px;
+            text-align: center;
+        }
+        
+        ::placeholder{
+            opacity: 1;
+            color: rgba(255,255,255,.8);
+            font-size: 11px;
+            letter-spacing: 3px;
+            padding: 2px;
+        }
+        
+        .btnBox{
+        height: 40px;
+          padding: 0 40px; 
+          text-align: left; 
+          border: 0;
+          background-color: rgba(191,0,23,.5);
+          font-size: 10pt; 
+          font-weight: lighter; 
+            border-radius: 20px;
+            color: rgba(255,255,255,.8);
+            font-size: 12px;
+            letter-spacing: 3px;
+            cursor: pointer;
+                
+        }
+        
+        div#wrap form a{
+            display: block;
+            color: rgba(255,255,255,1);
+            font-size: 11px;
+            letter-spacing: 2px;
+            padding-top: 15px
+            
+        }
+        
+        div#wrap form a:hover{
+            font-weight: bold;
+        }
+        
+
+    
+    </style>
+
+</head>
+
+<body>
+
+    <div id="page">
+
+        <div id="back"><a href="index.html"><span>◀</span> BACK TO HOME</a></div>
+        <div id="wrap">
+
+            <img src="img/logo.png" alt="로고">
+            <form id="aa" name="aa" action="login.php" method="post">
+                <input type="text" id="username" name="" placeholder="ENTER USERNAME" maxlength="10" class="my_box"><br>
+                <input type="password" id="password" name="" placeholder="ENTER PASSWORD" max="13" class="my_box"><br><br>
+                <input type="submit" value="LOG IN" class="btnBox">
+                
+                <a href="#">FORGOT YOUR PASSWORD?</a>
+                <a href="signup.html">SIGN UP</a>
+
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

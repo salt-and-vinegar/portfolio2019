@@ -1,0 +1,595 @@
+@media screen and (min-width:481px) and (max-width:1023px) {
+
+    #popup {
+        display: none;
+    }
+
+    div#history,
+    div#proCam,
+    div#proLens,
+    div#divide,
+    div#pom,
+    div#sustain,
+    div#shop,
+    footer {
+        transform: translateY(0em) !important
+    }
+
+    header h1 {
+        position: inherit;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .wrap70 {
+
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+
+    }
+
+    header nav {
+        display: block;
+        text-align: center;
+
+    }
+
+    header nav ul {
+        padding-top: 0;
+        width: 100%;
+
+    }
+
+    header nav ul li {
+        width: auto;
+        margin: 5px;
+    }
+
+    header nav ul li a {
+        display: block;
+        color: white;
+        font-size: 12px;
+        letter-spacing: 1px;
+
+    }
+
+    header div#gnb {
+        position: inherit;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    section div.flexslider {
+        display: none !important;
+    }
+
+    section div.mobile {
+        display: block;
+        position: relative;
+    }
+
+    section div.mobile div.secBtn {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        z-index: 1;
+    }
+
+    section div.mobile div.secBtn button {
+        border: 0;
+        background-color: black;
+        color: white;
+    }
+
+    #mobile_sec_wrap{
+        width: 100%;
+        overflow: hidden;
+    }
+    section div.mobile ul {
+       width: 10000px;
+    }
+
+    section div.mobile ul li {
+        position: relative;
+        background-color: black;
+        float: left;
+    }
+
+    section div.mobile ul li img {
+        width: 100%;
+    }
+
+    section div.mobile ul li span {
+        color: white;
+        position: absolute;
+        transform: scale(.98, 1.02)
+    }
+
+    section div.mobile ul li span.secTitle {
+        font-size: .7em;
+        top: 40%;
+        right: 0;
+        letter-spacing: 5px;
+        color: rgba(255, 255, 255);
+        transform: rotate(-90deg)
+    }
+
+    section div.mobile ul li span.secLine {
+        height: 15%;
+        background-color: white;
+        width: 1px;
+        left: 7%;
+        top: 35%;
+    }
+
+    section div.mobile ul li span.secSort {
+        font-size: 30px;
+        letter-spacing: 8px;
+        left: 37%;
+        top: 30%;
+    }
+
+    section div.mobile ul li span.secName {
+        font-size: 80px;
+        font-weight: bold;
+        letter-spacing: 11px;
+        left: 35%;
+        top: 35%;
+    }
+
+    div#history {
+
+
+        position: relative;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        background-image: url(../img/hisMobbg.jpg);
+        background-size: contain;
+
+    }
+
+    div#historySld {
+        display: none;
+    }
+
+    div#history div#hisLeft,
+    div#history div#hisRight {
+        display: none;
+    }
+
+    div#history > span {
+        width: 20px;
+        height: 5px;
+        background-color: #9e0b0f;
+        display: block;
+        margin: 20px auto;
+
+
+    }
+
+    div#history h2 span:first-child,
+    div#history h2 span:last-child {
+        color: white;
+        display: block;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 20px
+    }
+
+    div#history h2 span:nth-child(2) {
+        color: #9e0b0f;
+        display: block;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        font-size: 21px;
+
+
+    }
+
+    div#history > p {
+        color: white;
+        width: 40%;
+        margin: auto;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+
+    div.hisMob {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .hisMitemT {
+        padding-top: 20%
+    }
+
+    .hisMbig {
+        color: white;
+        font-size: 5.5em;
+        line-height: .8em;
+        font-weight: bolder;
+        letter-spacing: -.05em;
+        transform: scale(.99, 1.02)
+    }
+
+    .hisMitemT .hisMbig {
+        display: block;
+    }
+
+
+    div.hisMob div.item1934 {
+        background-image: url(../img/mobhisBG1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+
+    div.hisMob div.item1934 div.hisMitemT span,
+    div.hisMob div.item1948 div.hisMitemT span {
+        margin-left: 50%
+    }
+
+    div.hisMob div.item1934 div.hisMitemB,
+    div.hisMob div.item1936 div.hisMitemB,
+    div.hisMob div.item1948 div.hisMitemB {
+        color: white;
+
+    }
+
+    div.hisMob div.item1934 div.hisMitemB div.hisMwrap,
+    div.hisMob div.item1936 div.hisMitemB div.hisMwrap,
+    div.hisMob div.item1948 div.hisMitemB div.hisMwrap {
+        width: 58%;
+        font-size: 10px;
+        display: inline-block;
+
+    }
+
+    div.hisMob div.item1934 div.hisMitemB div.hisMwrap p,
+    div.hisMob div.item1934 div.hisMitemB div.hisMwrap h4,
+    div.hisMob div.item1948 div.hisMitemB div.hisMwrap p,
+    div.hisMob div.item1948 div.hisMitemB div.hisMwrap h4 {
+        text-align: right !important;
+
+
+    }
+
+    div.hisMob div.item1934 div.hisMitemB span,
+    div.hisMob div.item1948 div.hisMitemB span {
+        width: 40%;
+        display: inline-block;
+
+    }
+
+    div.hisMob div.item1936 {
+        background-image: url(../img/mobhisBG2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    div.hisMob div.item1936 div.hisMitemT span {
+        margin-left: 20%
+    }
+
+    div.hisMob div.item1936 div.hisMitemB span {
+        text-align: right !important;
+        width: 40%;
+        display: inline-block;
+    }
+
+    div.hisMob div.item1936 div.hisMitemB div.hisMwrap p,
+    div.hisMob div.item1936 div.hisMitemB div.hisMwrap h4 {
+        text-align: left !important;
+    }
+
+    div.hisMob div.item1948 {
+        background-image: url(../img/mobhisBG3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+
+    div.hisMob div.itemMvm {
+        text-align: center;
+    }
+
+    div.hisMob div.itemMvm span {
+        width: 1px;
+        height: 40px;
+        background-color: #9e0b0f;
+        ;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    div.hisMob div.itemMvm a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 11px;
+        letter-spacing: 5px;
+        margin: 10px 0;
+
+
+    }
+
+    div.hisMob div.itemMvm img {
+        width: 5%;
+    }
+
+
+    .proWrap {
+        height: auto !important;
+    }
+
+    div#proCam {
+        padding-top: 10%;
+        height: auto;
+        background-size: contain
+    }
+
+    div#proCam h2 {
+        font-size: 16px;
+    }
+
+    div#proCam > span {
+        font-size: 14px;
+    }
+
+    div#proCam div.proWrap {
+        display: block;
+        overflow: 0;
+    }
+
+    div#proCam div.proWrap > figure,
+    div#proCam div.proWrap > div#camCenter > figure,
+    div#proCam div.proWrap > div#camCenter > div {
+        height: 200px;
+        overflow: hidden;
+
+    }
+
+    div#proCam div.proWrap > figure:first-child {
+        background-image: url(../img/proCam_x-t3M.jpg);
+        background-size: cover;
+
+    }
+
+    div#proCam div.proWrap > figure:last-child {
+        background-image: url(../img/proCam_x100fM.jpg);
+        background-size: cover;
+    }
+    
+        div#proCam div.proWrap > figure > img {
+        display: none;
+    }
+    
+    div#proCam div.proWrap > figure:hover > span,
+    div#proCam div.proWrap > div#camCenter > figure:hover > span {
+
+    }
+    
+     div#proCam div.proWrap div#camCenter > figure:first-child {
+        margin-bottom: 10px;
+    }
+
+    div#proCam div.proWrap div#camCenter > figure:last-child {
+        margin-top: 10px;
+    }
+    
+    div#proLens figure{
+        height: 200px;
+    }
+    
+    div#proLens div#lensTop figure:first-child,
+    div#proLens div#lensTop figure:nth-child(2){
+        width: 100%;
+    }
+    div#proLens div#lensTop figure figcaption{
+        font-size: 12px;
+        top: 32%;
+    }
+    
+    div#proCam div.proWrap > figure > span{
+        width: 94%;
+        left: 3%;
+    }
+    
+    div#proCam div.proWrap > div#camCenter > figure:last-child > span{
+        height: 90%;
+    }
+    
+    div#proCam div.proWrap > div#camCenter > figure > figcaption{
+        font-size: 12px;
+    }
+    
+    div#proLens div#lensBot{
+        display: block;
+    }
+    
+    div#proLens div#lensBot figure:first-child{
+        margin: 10px;
+    }
+    
+    div#proLens div#lensBot figure:nth-child(2){
+        margin: 20px 10px;
+    }
+    
+    div#proLens div#lensBot div.proVM{
+        margin: 20px 9px;
+        height: 200px;
+    }
+    
+    div#proLens div#lensBot div.proVM img{
+        padding-top: 14%;
+    }
+    div#proLens div#lensTop figure span,
+    div#proLens div#lensBot figure span{
+        width: 94%;
+    }
+    
+    div#divide {
+        height: 160px;
+    }
+
+    div#divide div#magazine,
+    div#divide div#academy {
+        height: 180px;
+    }
+
+    div#divide div#magazine a,
+    div#divide div#academy a {
+        display: block;
+    }
+
+    div#divide div#magazine div.hover,
+    div#divide div#academy div.hover {
+        top: 30%;
+        left: 10%;
+    }
+
+    div#divide div#magazine div.hover img,
+    div#divide div#academy div.hover img {
+        width: 90%;
+    }
+
+    div#pom {
+        padding: 15% 0;
+        background-color: black;
+    }
+
+    div#pom ul {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    div#pom ul:after {
+
+        content: "PHOTO OF THE MONTH";
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 8px;
+        font-weight: bold;
+        padding: 20px 0;
+
+    }
+
+    div#pom ul li {
+        width: 45%;
+        float: none;
+        display: inline-block;
+        margin: 5px;
+        overflow: hidden;
+
+    }
+
+    div#pom ul li img {
+        transition: .5s all
+    }
+
+
+    div#pom ul li:hover img {
+        transform: scale(1.1)
+    }
+
+    div#pom ul li span {
+        display: none;
+    }
+
+    div#pom div#pomVM {
+        position: relative;
+        /*abs끄려고 이렇게 한 거*/
+        margin: auto;
+        width: 30%;
+        left: 0;
+        top: 0;
+    }
+
+
+    div#sustain {
+        background-image: url(../img/sustain_bgm.png);
+        background-size: cover;
+    }
+
+    div#sustain div#susTop img {
+        display: none;
+    }
+
+    div#susWrap div#susTop div#topTxt,
+    div#susWrap div#susBot div#botTxt {
+        width: 100%;
+    }
+
+    div#susWrap div#susTop div#topTxt:before {
+
+        content: "";
+        display: block;
+        background-image: url(../img/rescue.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin: 20px 0;
+
+    }
+
+    div#susWrap div#susBot img {
+        width: 100%;
+        height: 400px;
+        margin: 20px 0;
+    }
+
+    div#shop {
+        background-image: url(../img/shop_bg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    div.shopCont {
+        width: 90%;
+        height: 350px;
+        background-color: #070707;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+
+    div.shopCont h2 {
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+    div.shopCont span {
+        padding-bottom: 0
+    }
+
+    div.shopCont div.shopBtn a {
+
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    footer div#footWrap {
+        width: 80%;
+    }
+
+    footer div#footWrap ul#footList {
+        display: none;
+    }
+
+
+
+
+
+}
